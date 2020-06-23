@@ -11,12 +11,12 @@ ______________________________________________________________________________
 
 ## Prerequisite
 **Dataset**: Download the CORD-19 Dataset at CORD-19 Dataset at https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?taskId=882
-**File name**: 551982_1230614_bundle_archive.zip
-**Key files** / folders used for the Project:
+<br>**File name**: 551982_1230614_bundle_archive.zip
+<br>**Key files** / folders used for the Project:
 
-**Meta data**                : metadata.csv
-**Priority Questions files** : Kaggle -> target_tables -> 2_relevant_factors
-**Research Paper Locations**    : document_parses -> pdf_json & pmc_json
+<br>**Meta data**                : metadata.csv
+<br>**Priority Questions files** : Kaggle -> target_tables -> 2_relevant_factors
+<br>**Research Paper Locations**    : document_parses -> pdf_json & pmc_json
 
 ## Files to run
 Requires the Dataset to be downloaded
@@ -25,5 +25,5 @@ Requires the Dataset to be downloaded
 
 Requires the pickle file **1_scoped_cat_lit.pkl** and **2_extracted_literature_data.pkl** from the first two jupyter notebook.
 Source code already provided the pickle file for the ease of running the model.
-3. Search Engine using TFIDF.ipynb
-4. Supervised learning Model.ipynb
+<br>3. Search Engine using TFIDF.ipynb
+<br>4. Supervised learning Model.ipynb
