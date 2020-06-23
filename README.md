@@ -14,12 +14,16 @@ ______________________________________________________________________________
 **File name**: 551982_1230614_bundle_archive.zip
 **Key files** / folders used for the Project:
 
-1.     **Meta data**                : metadata.csv
-2.     **Priority Questions files** : Kaggle -> target_tables -> 2_relevant_factors
-3.     **Research Paper Locations**    : document_parses -> pdf_json & pmc_json
+**Meta data**                : metadata.csv
+**Priority Questions files** : Kaggle -> target_tables -> 2_relevant_factors
+**Research Paper Locations**    : document_parses -> pdf_json & pmc_json
 
 ## Files to run
+Requires the Dataset to be downloaded
 1. Data Exploratory and Cleansing of Labelled Data.iynb
 2. Text Extraction from Labelled Literature.ipynb
+
+Requires the pickle file **1_scoped_cat_lit.pkl** and **2_extracted_literature_data.pkl** from the first two jupyter notebook.
+Source code already provided the pickle file for the ease of running the model.
 3. Search Engine using TFIDF.ipynb
-4. Bag of Word Model.ipynb
+4. Supervised learning Model.ipynb
